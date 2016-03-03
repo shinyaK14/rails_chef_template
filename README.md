@@ -2,6 +2,7 @@ Create validation key
 ----------------------
 
 Go to `https://manage.opscode.com/login` and create a new organization for your startup. Refresh the page and switch the organization to your startup. Navigate to `Administration` -> `Reset Validation Key`.
+(DO NOT reset existing key)
 Copy the newly generated key to ~/.chef/name-validator.pem.
 
 Create Encrypted Data Bag secret
